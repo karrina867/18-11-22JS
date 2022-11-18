@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*1. Пользователь вводит строку. Подсчитать и вывести кол-во
+пробелов в строке;*/
+        /*let str = prompt('введите строку');
+        let num = 0;
+        let num2 = 0 ;
+        while(num2 < str.length){
+            if(str[num2].includes(' ')){
+                num = num + 1;
+            }
+            num2 = num2 +1;
+        }
+        console.log(num);*/
+        /*2. Пользователь вводит какой-то символ. Программа должна
+вывести в консоль сообщение, является ли введенный символ
+буквой латинского алфавита, цифрой или любым другим
+символом. Регистр не учитывать (т.е. предполагаем, что
+пользователь вводит только маленькие буквы).
+*/
+        /*let str = prompt('введите символ');
+        if(str >='a' && str <= 'z' ){
+            console.log('символ латинского алфавита');
+        }
+        else if(str == +str){
+            console.log('символ цифра');
+        }
+        else{
+            console.log('другой символ')
+        }*/
+        /*3. Пользователь вводит строку. Сформировать и вывести новую
+строку, состоящую только из гласных букв русского алфавита
+(если такие есть). Учитывать регистр – т.е. должен находит и
+большие и маленькие буквы. Выводить можно все
+маленькими.
+*/
+        let str = prompt('введите строку');
+        let str2;
+        let y = 0;
+        for(let i = 0; i< str.length; i++){
+             if(str[i] == 'а' || str[i] == 'о'  || str[i] == 'у'  || str[i] == 'ы'  || str[i] == 'е'){
+                str2 = str.slice(i);
+        }
+        console.log(str2);
+        }
+       
+
+
+    </script>
+</body>
+</html>
